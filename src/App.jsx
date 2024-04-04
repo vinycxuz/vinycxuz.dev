@@ -1,14 +1,13 @@
 import './App.css'
 import Header from './components/header'
+import Main from './components/main'
 
 function App() {
 
   return (
     <>
       <Header />
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Main />
     </>
   )
 }
