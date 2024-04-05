@@ -4,10 +4,9 @@ import "./style.css";
 const About = () => {
   return (
     <div className='about'>
-      <section className='bio'>
-        
+      <section className='solution_section'>
+
       </section>
-      <section></section>
     </div>
   );
 };
