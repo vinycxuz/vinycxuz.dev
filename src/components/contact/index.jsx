@@ -1,17 +1,16 @@
 import React from 'react';
-import { Button } from "flowbite-react";
 
 import './style.css';
 
 const Contact = () => {
   return (
     <div className='contact'>
-      <Button pill>
+      <button className='btn draw-border'>
         Contact
-      </Button>
-      <Button pill>
+      </button>
+      <button className='btn draw-border'>
         Contact
-      </Button>
+      </button>
     </div>
   );
 };

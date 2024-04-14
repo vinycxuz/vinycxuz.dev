@@ -1,3 +1,15 @@
 .contact {
   display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.contact button {
+  background-color: var(--tertiary);
+  color: var(--white);
+  border-bottom: 2px solid var(--secondary);
+}
+
+.contact button:hover {
+  background-color: var(--secondary);
 }
