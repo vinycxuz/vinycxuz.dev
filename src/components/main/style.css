@@ -5,7 +5,16 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
   text-align: center;
-  color: white;
+  color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--tertiary);
+}
+
+main p {
+  font-size: 24px;
+}
+
+main h1 {
+  font-size: 72px;
 }

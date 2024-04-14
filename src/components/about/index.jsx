@@ -2,6 +2,7 @@ import React from 'react';
 import "./style.css";
 import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
+import Contact from '../contact';
 
 const About = () => {
   return (
@@ -101,6 +102,7 @@ const About = () => {
         </Timeline>
         </div>
       </section>
+    <Contact />
     </div>
   );
 };
