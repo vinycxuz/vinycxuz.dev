@@ -1,0 +1,19 @@
+.section_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px 0 25px 0;
+  overflow-x: auto;
+}
+
+.container_project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px 0 25px 0;
+  margin-left: 5px;
+}
+
