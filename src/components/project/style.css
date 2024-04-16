@@ -12,8 +12,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 85%;
   padding: 25px 0 25px 0;
   margin-left: 5px;
 }
 
+.project {
+  margin-left: 10px;
+}
