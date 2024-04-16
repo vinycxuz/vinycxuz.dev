@@ -1,0 +1,10 @@
+.languages {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.languages_title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}

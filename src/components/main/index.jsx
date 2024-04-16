@@ -1,12 +1,17 @@
 import React from 'react';
+import "./style.css";
+import Contact from '../contact';
 
-const MyComponent = () => {
+const Main = () => {
   return (
-    <div>
-      <h1>I'm backend developer</h1>
-      <p>description</p>
-    </div>
+    <main>
+      <h1>I'm Vinícius Aarão,</h1>
+      <p>backend developer.</p>
+      <p>And if you here, I believe that my job is working at least 1%</p>
+      <p>Can I show more? If yes, thank you and scroll down!</p>
+      <Contact />
+    </main>
   );
 };
 
-export default MyComponent;
+export default Main;

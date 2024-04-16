@@ -1,9 +1,11 @@
 import React from 'react';
+import './style.css';
 
 const Header = () => {
   return (
     <header>
-      @vinycxuz.dev
+      <div className='menu'>@vinycxuz.dev</div>
+      <div><a href="http://">Contact me</a></div>
     </header>
   );
 };
