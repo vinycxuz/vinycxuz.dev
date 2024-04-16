@@ -8,7 +8,7 @@ import FooterPage from './components/footer'
 
 function App() {
   const languageData = [
-    { title: "Responsividade", content: "This site is a responsive site, which means it can be viewed on any device, whether it's a desktop, tablet, or mobile phone." },
+    { title: "Responsividade.", content: "This site is a responsive site, which means it can be viewed on any device, whether it's a desktop, tablet, or mobile phone." },
     { title: "RESTful API", content: "This site uses API's to fetch data from the server and display it on the site." },
     // Add more objects as needed
   ];
